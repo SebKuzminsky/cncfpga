@@ -1,0 +1,20 @@
+v 20080127 1
+T 16500 1800 5 10 0 0 0 0 1
+graphical=1
+T 26500 400 15 8 1 0 0 0 1
+FILE:
+T 31500 400 15 8 1 0 0 0 1
+REVISION:
+T 29400 400 15 8 1 0 0 0 1
+PAGE
+T 30200 400 15 8 1 0 0 0 1
+OF
+B 26400 0 7600 2700 15 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+L 26400 600 34000 600 15 0 0 0 -1 -1
+T 26500 100 15 10 1 0 0 0 1
+Project URL:
+T 26900 800 9 10 1 0 0 0 2
+                Copyright 2010 by Bdale Garbee <bdale@gag.com>
+Licensed under the TAPR Open Hardware License, http://www.tapr.org/OHL
+L 26400 1400 34000 1400 15 0 0 0 -1 -1
+B 0 0 34000 22000 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1

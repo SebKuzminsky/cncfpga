@@ -87,18 +87,12 @@ pintype=io
 }
 B 400 0 4200 1900 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
 T 5400 -1500 8 10 0 0 0 0 1
-description=Microchip PIC18F242 Microcontroller
+description=Microchip PIC12F629 Microcontroller
 T 400 2000 8 10 1 1 0 0 1
 refdes=U?
 T 5400 -600 8 10 0 0 0 0 1
 numslots=0
-T 5400 -900 8 10 0 0 0 0 1
-device=PIC18F242
 T 2150 1650 9 10 1 0 0 0 1
 PIC12F629
-T 5400 -300 8 10 0 0 0 0 1
-slot=1
-T 5400 -1200 8 10 0 0 0 0 1
-footprint=DIP28
 L 1000 500 1400 500 3 0 0 0 -1 -1
 L 900 900 1300 900 3 0 0 0 -1 -1

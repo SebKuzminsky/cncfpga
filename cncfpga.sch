@@ -86,6 +86,14 @@ T 39400 40100 5 10 0 0 0 0 1
 device=EP1K10TC100
 T 46400 60100 5 10 1 1 180 0 1
 refdes=U1
+T 45800 41700 5 10 1 1 0 0 1
+value=EP1K
+T 45800 41700 5 10 0 1 0 0 1
+loadstatus=smt
+T 45800 41700 5 10 0 1 0 0 1
+vendor=digikey
+T 45800 41700 5 10 0 1 0 0 1
+vendor_part_number=544-1828-ND
 }
 C 49400 41200 1 0 0 gnd.sym
 N 47900 41600 51100 41600 4
@@ -103,6 +111,8 @@ C 57600 50900 1 0 1 conn-25.sym
 {
 T 57145 60795 5 10 1 1 0 6 1
 refdes=J1
+T 57600 50900 5 10 0 1 0 0 1
+loadstatus=throughhole
 }
 C 63000 54200 1 0 0 conn-15.sym
 {
@@ -110,6 +120,8 @@ T 63355 60095 5 10 1 1 0 0 1
 refdes=J3
 T 63400 54000 5 10 1 1 0 0 1
 value=X
+T 63000 54200 5 10 0 1 0 0 1
+loadstatus=throughhole
 }
 C 65800 54200 1 0 0 conn-15.sym
 {
@@ -117,6 +129,8 @@ T 66155 60095 5 10 1 1 0 0 1
 refdes=J4
 T 66200 54000 5 10 1 1 0 0 1
 value=Y
+T 65800 54200 5 10 0 1 0 0 1
+loadstatus=throughhole
 }
 C 68600 54200 1 0 0 conn-15.sym
 {
@@ -124,6 +138,8 @@ T 68955 60095 5 10 1 1 0 0 1
 refdes=J5
 T 69000 54000 5 10 1 1 0 0 1
 value=Z
+T 68600 54200 5 10 0 1 0 0 1
+loadstatus=throughhole
 }
 C 71400 54200 1 0 0 conn-15.sym
 {
@@ -131,11 +147,15 @@ T 71755 60095 5 10 1 1 0 0 1
 refdes=J6
 T 71800 54000 5 10 1 1 0 0 1
 value=A
+T 71400 54200 5 10 0 1 0 0 1
+loadstatus=throughhole
 }
 C 61200 43800 1 0 0 conn-9.sym
 {
 T 61555 47295 5 10 1 1 0 0 1
 refdes=J7
+T 61200 43800 5 10 0 1 0 0 1
+loadstatus=throughhole
 }
 C 64900 49500 1 0 0 PIC12F629.sym
 {
@@ -145,6 +165,14 @@ T 70300 48600 5 10 0 0 0 0 1
 device=PIC12F629
 T 70300 48300 5 10 0 0 0 0 1
 footprint=SO8
+T 64900 49500 5 10 1 1 0 0 1
+value=PIC12F629
+T 64900 49500 5 10 0 1 0 0 1
+loadstatus=smt
+T 64900 49500 5 10 0 1 0 0 1
+vendor=digikey
+T 64900 49500 5 10 0 1 0 0 1
+vendor_part_number=PIC12F629-I/SNTR-ND
 }
 C 65900 44200 1 0 0 TC2185.sym
 {
@@ -154,6 +182,14 @@ T 66695 45395 5 10 1 1 0 0 1
 device=TC2185-3.3
 T 65895 44195 5 10 0 1 0 0 1
 footprint=SOT23-5
+T 65900 44200 5 10 1 1 0 0 1
+value=TC2185-3.3
+T 65900 44200 5 10 0 1 0 0 1
+loadstatus=smt
+T 65900 44200 5 10 0 1 0 0 1
+vendor=digikey
+T 65900 44200 5 10 0 1 0 0 1
+vendor_part_number=TC2185-3.3VCCT-ND
 }
 N 66100 47100 64400 47100 4
 C 66900 43400 1 0 0 gnd.sym
@@ -170,6 +206,10 @@ T 65000 45800 5 10 1 1 180 0 1
 refdes=C2
 T 64500 45300 5 10 0 0 90 0 1
 symversion=0.1
+T 65400 45100 5 10 0 1 0 0 1
+loadstatus=smt
+T 65400 45100 5 10 0 1 0 0 1
+vendor=digikey
 }
 C 68400 43800 1 90 0 capacitor.sym
 {
@@ -179,6 +219,10 @@ T 68600 44600 5 10 1 1 180 0 1
 refdes=C4
 T 67500 44000 5 10 0 0 90 0 1
 symversion=0.1
+T 68400 43800 5 10 0 1 0 0 1
+loadstatus=smt
+T 68400 43800 5 10 0 1 0 0 1
+vendor=digikey
 }
 C 69200 44200 1 90 0 capacitor.sym
 {
@@ -188,6 +232,10 @@ T 69400 45000 5 10 1 1 180 0 1
 refdes=C5
 T 68300 44400 5 10 0 0 90 0 1
 symversion=0.1
+T 69200 44200 5 10 0 1 0 0 1
+loadstatus=smt
+T 69200 44200 5 10 0 1 0 0 1
+vendor=digikey
 }
 N 67000 43800 71000 43800 4
 N 69000 43800 69000 44200 4
@@ -225,6 +273,8 @@ T 66100 46500 5 10 0 0 0 0 1
 vendor_part_number=497-2947-5-ND
 T 66100 46500 5 10 0 0 0 0 1
 footprint=TC220W
+T 66100 46500 5 10 0 1 0 0 1
+loadstatus=throughhole
 }
 N 65900 45100 65700 45100 4
 C 66900 45900 1 0 0 gnd.sym
@@ -240,6 +290,10 @@ T 67500 46400 5 10 0 0 90 0 1
 symversion=0.1
 T 68400 46200 5 10 0 0 0 0 1
 footprint=0402
+T 68400 46200 5 10 0 1 0 0 1
+loadstatus=smt
+T 68400 46200 5 10 0 1 0 0 1
+vendor=digikey
 }
 N 67000 46200 67000 46500 4
 N 68200 46200 67000 46200 4
@@ -272,6 +326,14 @@ T 55300 48200 5 10 0 0 270 0 1
 device=LED
 T 55100 47700 5 10 1 1 0 0 1
 value=red
+T 54700 48100 5 10 0 1 0 0 1
+footprint=0603diode
+T 54700 48100 5 10 0 1 0 0 1
+loadstatus=smt
+T 54700 48100 5 10 0 1 0 0 1
+vendor=digikey
+T 54700 48100 5 10 0 1 0 0 1
+vendor_part_number=160-1433-1-ND
 }
 C 54900 48100 1 90 0 resistor.sym
 {
@@ -281,6 +343,10 @@ T 55300 48800 5 10 1 1 180 0 1
 refdes=R1
 T 55000 48400 5 10 1 1 0 0 1
 value=330
+T 54900 48100 5 10 0 1 0 0 1
+footprint=0402
+T 54900 48100 5 10 0 1 0 0 1
+loadstatus=smt
 }
 C 54700 47400 1 0 0 gnd.sym
 C 41900 43600 1 0 0 oscillator.sym
@@ -308,6 +374,10 @@ T 40700 43800 5 10 0 0 90 0 1
 symversion=0.1
 T 40700 43700 5 10 1 1 0 0 1
 value=0.01uF
+T 41600 43600 5 10 0 1 0 0 1
+loadstatus=smt
+T 41600 43600 5 10 0 1 0 0 1
+vendor=digikey
 }
 C 42700 43300 1 0 0 gnd.sym
 C 41200 44600 1 0 0 3.3V-plus.sym
@@ -660,6 +730,8 @@ C 59100 50500 1 0 0 conn-26.sym
 {
 T 59455 60795 5 10 1 1 0 0 1
 refdes=J2
+T 59100 50500 5 10 0 1 0 0 1
+loadstatus=throughhole
 }
 N 57600 60600 59100 60600 4
 {
@@ -839,6 +911,8 @@ T 72055 50905 5 10 1 1 180 6 1
 refdes=J9
 T 72000 48600 5 10 1 1 0 0 1
 value=ICSP
+T 71700 50700 5 10 0 1 0 0 1
+loadstatus=throughhole
 }
 N 71700 49800 70500 49800 4
 {
@@ -874,12 +948,20 @@ T 61500 50300 5 10 0 0 90 0 1
 symversion=0.1
 T 61600 50200 5 10 1 1 0 0 1
 value=0.1uF
+T 62400 50100 5 10 0 1 0 0 1
+loadstatus=smt
+T 62400 50100 5 10 0 1 0 0 1
+vendor=digikey
+T 62400 50100 5 10 0 1 0 0 1
+vendor_part_number=399-3027-1-ND
 }
 C 62100 49800 1 0 0 gnd.sym
 C 64400 46600 1 0 1 conn-2.sym
 {
 T 64095 47245 5 10 1 1 0 6 1
 refdes=J8
+T 64400 46600 5 10 0 1 0 0 1
+loadstatus=throughhole
 }
 C 65600 53900 1 0 0 gnd.sym
 N 65800 54300 65700 54300 4
@@ -1066,6 +1148,8 @@ C 56000 48800 1 0 0 conn-3.sym
 {
 T 56300 50100 5 10 1 1 0 0 1
 refdes=J10
+T 56000 48800 5 10 0 1 0 0 1
+loadstatus=throughhole
 }
 T 62000 45600 9 10 1 0 0 0 1
 spindle
@@ -1082,6 +1166,12 @@ T 71500 44300 5 10 0 0 270 0 1
 device=LED
 T 71200 43700 5 10 1 1 0 0 1
 value=green
+T 70900 44200 5 10 0 1 0 0 1
+footprint=0603diode
+T 70900 44200 5 10 0 1 0 0 1
+loadstatus=smt
+T 70900 44200 5 10 0 1 0 0 1
+vendor=digikey
 }
 C 69600 46200 1 270 0 led.sym
 {
@@ -1091,6 +1181,12 @@ T 70200 46300 5 10 0 0 270 0 1
 device=LED
 T 69900 45700 5 10 1 1 0 0 1
 value=green
+T 69600 46200 5 10 0 1 0 0 1
+footprint=0603diode
+T 69600 46200 5 10 0 1 0 0 1
+loadstatus=smt
+T 69600 46200 5 10 0 1 0 0 1
+vendor=digikey
 }
 C 69800 46200 1 90 0 resistor.sym
 {
@@ -1100,6 +1196,10 @@ T 70100 46900 5 10 1 1 180 0 1
 refdes=R2
 T 69900 46500 5 10 1 1 0 0 1
 value=470
+T 69800 46200 5 10 0 1 0 0 1
+footprint=0402
+T 69800 46200 5 10 0 1 0 0 1
+loadstatus=smt
 }
 C 71100 44200 1 90 0 resistor.sym
 {
@@ -1109,6 +1209,10 @@ T 71400 44900 5 10 1 1 180 0 1
 refdes=R3
 T 71200 44500 5 10 1 1 0 0 1
 value=330
+T 71100 44200 5 10 0 1 0 0 1
+footprint=0402
+T 71100 44200 5 10 0 1 0 0 1
+loadstatus=smt
 }
 C 69600 45500 1 0 0 gnd.sym
 C 63100 49100 1 0 0 led2.sym
@@ -1119,6 +1223,12 @@ T 63000 49700 5 10 0 0 0 0 1
 device=LED
 T 63050 49100 5 10 0 1 0 0 1
 footprint=0605
+T 63100 49100 5 10 1 1 0 0 1
+value=dual
+T 63100 49100 5 10 0 1 0 0 1
+loadstatus=smt
+T 63100 49100 5 10 0 1 0 0 1
+vendor=digikey
 }
 C 63800 48300 1 90 0 resistor.sym
 {
@@ -1128,6 +1238,10 @@ T 64100 49000 5 10 1 1 180 0 1
 refdes=R5
 T 64100 48700 5 10 1 1 180 0 1
 value=1k
+T 63800 48300 5 10 0 1 0 0 1
+footprint=0402
+T 63800 48300 5 10 0 1 0 0 1
+loadstatus=smt
 }
 C 62800 50100 1 90 0 resistor.sym
 {
@@ -1137,6 +1251,10 @@ T 63100 50800 5 10 1 1 180 0 1
 refdes=R4
 T 63100 50500 5 10 1 1 180 0 1
 value=1k
+T 62800 50100 5 10 0 1 0 0 1
+footprint=0402
+T 62800 50100 5 10 0 1 0 0 1
+loadstatus=smt
 }
 C 63600 48000 1 0 0 gnd.sym
 N 63500 49200 63700 49200 4
@@ -1156,6 +1274,12 @@ T 61300 56300 5 10 0 0 90 0 1
 symversion=0.1
 T 62200 56200 5 10 1 1 0 0 1
 value=0.1uF
+T 62200 56100 5 10 0 1 0 0 1
+loadstatus=smt
+T 62200 56100 5 10 0 1 0 0 1
+vendor=digikey
+T 62200 56100 5 10 0 1 0 0 1
+vendor_part_number=399-3027-1-ND
 }
 N 62000 57100 61500 57100 4
 N 62000 57100 62000 57000 4
@@ -1171,6 +1295,12 @@ T 64100 56300 5 10 0 0 90 0 1
 symversion=0.1
 T 65000 56200 5 10 1 1 0 0 1
 value=0.1uF
+T 65000 56100 5 10 0 1 0 0 1
+loadstatus=smt
+T 65000 56100 5 10 0 1 0 0 1
+vendor=digikey
+T 65000 56100 5 10 0 1 0 0 1
+vendor_part_number=399-3027-1-ND
 }
 N 64800 57100 64300 57100 4
 N 64800 57100 64800 57000 4
@@ -1186,6 +1316,12 @@ T 66900 56300 5 10 0 0 90 0 1
 symversion=0.1
 T 67800 56200 5 10 1 1 0 0 1
 value=0.1uF
+T 67800 56100 5 10 0 1 0 0 1
+loadstatus=smt
+T 67800 56100 5 10 0 1 0 0 1
+vendor=digikey
+T 67800 56100 5 10 0 1 0 0 1
+vendor_part_number=399-3027-1-ND
 }
 N 67600 57100 67100 57100 4
 N 67600 57100 67600 57000 4
@@ -1201,6 +1337,12 @@ T 69700 56300 5 10 0 0 90 0 1
 symversion=0.1
 T 70600 56200 5 10 1 1 0 0 1
 value=0.1uF
+T 70600 56100 5 10 0 1 0 0 1
+loadstatus=smt
+T 70600 56100 5 10 0 1 0 0 1
+vendor=digikey
+T 70600 56100 5 10 0 1 0 0 1
+vendor_part_number=399-3027-1-ND
 }
 N 70400 57100 69900 57100 4
 N 70400 57100 70400 57000 4
@@ -1216,6 +1358,12 @@ T 68900 44400 5 10 0 0 90 0 1
 symversion=0.1
 T 69700 44300 5 10 1 1 0 0 1
 value=0.1uF
+T 69800 44200 5 10 0 1 0 0 1
+loadstatus=smt
+T 69800 44200 5 10 0 1 0 0 1
+vendor=digikey
+T 69800 44200 5 10 0 1 0 0 1
+vendor_part_number=399-3027-1-ND
 }
 C 70400 44200 1 90 0 capacitor.sym
 {
@@ -1227,6 +1375,12 @@ T 69500 44400 5 10 0 0 90 0 1
 symversion=0.1
 T 70300 44300 5 10 1 1 0 0 1
 value=0.1uF
+T 70400 44200 5 10 0 1 0 0 1
+loadstatus=smt
+T 70400 44200 5 10 0 1 0 0 1
+vendor=digikey
+T 70400 44200 5 10 0 1 0 0 1
+vendor_part_number=399-3027-1-ND
 }
 N 69600 44200 69600 43800 4
 N 70200 44200 70200 43800 4

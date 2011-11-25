@@ -18,14 +18,14 @@ pinseq=1
 P 900 0 900 300 1 0 0
 {
 T 800 100 5 8 1 1 0 0 1
-pinnumber=2
+pinnumber=3
 T 800 100 5 8 0 0 0 0 1
 pinseq=3
 }
 P 1500 600 1800 600 1 0 1
 {
 T 1630 650 5 8 1 1 0 0 1
-pinnumber=3
+pinnumber=5
 T 1630 650 5 8 0 0 0 0 1
 pinseq=5
 }

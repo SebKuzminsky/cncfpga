@@ -3,10 +3,10 @@
 # To read pcb files, the pcb version (or the git source date) must be >= the file version
 FileVersion[20070407]
 
-PCB["cncfpga" 600000 500000]
+PCB["cncfpga" 511800 300000]
 
 Grid[100.0 0 0 0]
-Cursor[6900 33200 0.000000]
+Cursor[4600 74000 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 1000 600 500 1500 700]
@@ -812,13 +812,13 @@ Symbol['~' 1200]
 )
 Attribute("PCB::grid::unit" "mil")
 
-Element["hidename,lock" "hole-fox-stack" "H4" "unknown" 342520 342520 -16900 -21000 0 100 ""]
+Element["hidename" "hole-fox-stack" "H4" "unknown" 342520 250000 -16900 -21000 0 100 ""]
 (
 	Pin[0 0 25197 0 32000 12500 "pin1" "1" "usetherm,thermal(1S)"]
 
 	)
 
-Element["hidename,lock" "hole-fox-stack" "H3" "unknown" 31495 342520 -16900 -21000 0 100 ""]
+Element["hidename" "hole-fox-stack" "H3" "unknown" 31495 250000 -16900 -21000 0 100 ""]
 (
 	Pin[0 0 25197 0 32000 12500 "pin1" "1" "usetherm,thermal(1S)"]
 
@@ -835,8 +835,6 @@ Element["hidename,lock" "hole-fox-stack" "H1" "unknown" 31495 31495 -16900 -2100
 	Pin[0 0 25197 0 32000 12500 "pin1" "1" "usetherm,thermal(1S)"]
 
 	)
-
-
 Layer(1 "top")
 (
 )
@@ -844,16 +842,14 @@ Layer(2 "GND plane")
 (
 	Polygon("clearpoly,lock")
 	(
-		[1300 32000] [32000 1300] [342000 1300] [372700 32000] [372700 342000] 
-		[342000 372700] [32000 372700] [1300 342000] 
+		[1000 1000] [510800 1000] [510800 299000] [1000 299000]
 	)
 )
 Layer(3 "power plane")
 (
 	Polygon("clearpoly,lock")
 	(
-		[1300 32000] [32000 1300] [342000 1300] [372700 32000] [372700 342000] 
-		[342000 372700] [32000 372700] [1300 342000] 
+		[1000 1000] [510800 1000] [510800 299000] [1000 299000]
 	)
 )
 Layer(4 "bottom")
@@ -862,34 +858,18 @@ Layer(4 "bottom")
 Layer(5 "outline")
 (
 	Attribute("PCB::skip-drc" "1")
-	Line[31496 0 342520 0 1000 2000 "lock"]
-	Line[342520 0 374016 31496 1000 2000 "lock"]
-	Line[374016 31496 374016 342520 1000 2000 "lock"]
-	Line[374016 342520 342520 374016 1000 2000 "lock"]
-	Line[342520 374016 31496 374016 1000 2000 "lock"]
-	Line[31496 374016 0 342520 1000 2000 "lock"]
-	Line[0 342520 0 31496 1000 2000 "lock"]
-	Line[0 31496 31496 0 1000 2000 "lock"]
+	Line[0 0 511800 0 1000 2000 "lock"]
+	Line[511800 0 511800 300000 1000 2000 "lock"]
+	Line[511800 300000 0 300000 1000 2000 "lock"]
+	Line[0 300000 0 0 1000 2000 "lock"]
 )
 Layer(6 "silk")
 (
 )
 Layer(7 "silk")
 (
-	Line[1968 64960 31496 64960 1000 2000 ""]
-	Line[31496 64960 64960 31496 1000 2000 ""]
-	Line[64960 31496 64960 1968 1000 2000 ""]
-	Line[309052 1968 309052 31496 1000 2000 ""]
-	Line[309052 31496 342516 64960 1000 2000 ""]
-	Line[342516 64960 372044 64960 1000 2000 ""]
-	Line[1968 309052 31496 309052 1000 2000 ""]
-	Line[31496 309052 64960 342516 1000 2000 ""]
-	Line[64960 342516 64960 372044 1000 2000 ""]
-	Line[309052 372044 309052 342516 1000 2000 ""]
-	Line[309052 342516 342516 309052 1000 2000 ""]
-	Line[342516 309052 372044 309052 1000 2000 ""]
-	Text[117220 349125 0 200 "AMSAT-NA Fox-1 IHU v0.1" ""]
-	Text[78313 364079 0 100 "` 2011 Bdale Garbee KB0G   License TAPR OHL (http://www.tapr.org/OHL)" ""]
+	Text[117220 249125 0 200 "FPGA for LinuxCNC v0.1" ""]
+	Text[78313 264079 0 100 "` 2011 Bdale Garbee KB0G   License TAPR OHL (http://www.tapr.org/OHL)" ""]
 )
 NetList()
 (

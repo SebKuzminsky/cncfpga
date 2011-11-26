@@ -824,13 +824,13 @@ Element["hidename" "hole-fox-stack" "H3" "unknown" 31495 250000 -16900 -21000 0 
 
 	)
 
-Element["hidename,lock" "hole-fox-stack" "H2" "unknown" 342520 31495 -16900 -21000 0 100 ""]
+Element["hidename" "hole-fox-stack" "H2" "unknown" 342520 31495 -16900 -21000 0 100 ""]
 (
 	Pin[0 0 25197 0 32000 12500 "pin1" "1" "usetherm,thermal(1S)"]
 
 	)
 
-Element["hidename,lock" "hole-fox-stack" "H1" "unknown" 31495 31495 -16900 -21000 0 100 ""]
+Element["hidename" "hole-fox-stack" "H1" "unknown" 31495 31495 -16900 -21000 0 100 ""]
 (
 	Pin[0 0 25197 0 32000 12500 "pin1" "1" "usetherm,thermal(1S)"]
 

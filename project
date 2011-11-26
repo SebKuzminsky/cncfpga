@@ -1,4 +1,4 @@
 schematics	cncfpga.sch
 output-name	cncfpga
-elements-dir	./packages
 skip-m4
+skip-pcblibpath

@@ -94,6 +94,8 @@ T 45800 41700 5 10 0 1 0 0 1
 vendor=digikey
 T 45800 41700 5 10 0 1 0 0 1
 vendor_part_number=544-1828-ND
+T 45800 41700 5 10 0 1 0 0 1
+footprint=lqfp100
 }
 C 49400 41200 1 0 0 gnd.sym
 N 47900 41600 51100 41600 4
@@ -113,42 +115,48 @@ T 57145 60795 5 10 1 1 0 6 1
 refdes=J1
 T 57600 50900 5 10 0 1 0 0 1
 loadstatus=throughhole
+T 57600 50900 5 10 0 1 0 0 1
+device=CONNECTOR
+T 57600 50900 5 10 0 0 0 0 1
+vendor=digikey
+T 57600 50900 5 10 0 0 0 0 1
+vendor_part_number=182-25ME-ND
+T 57600 50900 5 10 0 0 0 0 1
+footprint=182-25
 }
 C 63000 54200 1 0 0 conn-15.sym
 {
 T 63355 60095 5 10 1 1 0 0 1
 refdes=J3
-T 63400 54000 5 10 1 1 0 0 1
-value=X
+T 63400 54000 5 10 0 1 0 0 1
+value=XY
 T 63000 54200 5 10 0 1 0 0 1
 loadstatus=throughhole
-}
-C 65800 54200 1 0 0 conn-15.sym
-{
-T 66155 60095 5 10 1 1 0 0 1
-refdes=J4
-T 66200 54000 5 10 1 1 0 0 1
-value=Y
-T 65800 54200 5 10 0 1 0 0 1
-loadstatus=throughhole
+T 63000 54200 5 10 0 0 0 0 1
+footprint=189-15
+T 63000 54200 5 10 0 0 0 0 1
+vendor=digikey
+T 63000 54200 5 10 0 0 0 0 1
+vendor_part_number=1015FFE-ND
+T 63000 54200 5 10 0 1 0 0 1
+device=CONNECTOR
 }
 C 68600 54200 1 0 0 conn-15.sym
 {
 T 68955 60095 5 10 1 1 0 0 1
-refdes=J5
-T 69000 54000 5 10 1 1 0 0 1
-value=Z
+refdes=J4
+T 69000 54000 5 10 0 1 0 0 1
+value=ZA
 T 68600 54200 5 10 0 1 0 0 1
 loadstatus=throughhole
-}
-C 71400 54200 1 0 0 conn-15.sym
-{
-T 71755 60095 5 10 1 1 0 0 1
-refdes=J6
-T 71800 54000 5 10 1 1 0 0 1
-value=A
-T 71400 54200 5 10 0 1 0 0 1
-loadstatus=throughhole
+T 68600 54200 5 10 0 1 0 0 1
+device=CONNECTOR
+T 68600 54200 5 10 0 1 0 0 1
+footprint=189-15
+T 68600 54200 5 10 0 1 0 0 1
+vendor=digikey
+T 68600 54200 5 10 0 1 0 0 1
+vendor_part_number=1015FFE-ND
 }
 C 61200 43800 1 0 0 conn-9.sym
 {
@@ -156,6 +164,16 @@ T 61555 47295 5 10 1 1 0 0 1
 refdes=J7
 T 61200 43800 5 10 0 1 0 0 1
 loadstatus=throughhole
+T 61200 43800 5 10 0 0 0 0 1
+footprint=182-9
+T 61200 43800 5 10 0 0 0 0 1
+vendor=digikey
+T 61200 43800 5 10 0 0 0 0 1
+vendor_part_number=182-109FE-ND
+T 61200 43800 5 10 0 1 0 0 1
+device=CONNECTOR
+T 61500 43500 5 10 1 1 0 0 1
+value=GPIO
 }
 C 64900 49500 1 0 0 PIC12F629.sym
 {
@@ -165,7 +183,7 @@ T 70300 48600 5 10 0 0 0 0 1
 device=PIC12F629
 T 70300 48300 5 10 0 0 0 0 1
 footprint=SO8
-T 64900 49500 5 10 1 1 0 0 1
+T 64900 49500 5 10 0 1 0 0 1
 value=PIC12F629
 T 64900 49500 5 10 0 1 0 0 1
 loadstatus=smt
@@ -192,7 +210,7 @@ T 65400 45100 5 10 0 1 0 0 1
 loadstatus=smt
 T 65400 45100 5 10 0 1 0 0 1
 vendor=digikey
-T 65400 45100 5 10 1 1 0 0 1
+T 65400 45100 5 10 0 1 0 0 1
 footprint=0402
 }
 C 68400 44200 1 90 0 capacitor.sym
@@ -207,7 +225,7 @@ T 68400 44200 5 10 0 1 0 0 1
 loadstatus=smt
 T 68400 44200 5 10 0 1 0 0 1
 vendor=digikey
-T 68400 44200 5 10 1 1 0 0 1
+T 68400 44200 5 10 0 1 0 0 1
 footprint=0402
 }
 N 67000 43800 70200 43800 4
@@ -350,7 +368,7 @@ T 41600 43600 5 10 0 1 0 0 1
 loadstatus=smt
 T 41600 43600 5 10 0 1 0 0 1
 vendor=digikey
-T 41600 43600 5 10 1 1 0 0 1
+T 41600 43600 5 10 0 1 0 0 1
 footprint=0402
 }
 C 42700 43300 1 0 0 gnd.sym
@@ -706,6 +724,14 @@ T 59455 60795 5 10 1 1 0 0 1
 refdes=J2
 T 59100 50500 5 10 0 1 0 0 1
 loadstatus=throughhole
+T 59100 50500 5 10 0 1 0 0 1
+vendor=digikey
+T 59200 50200 5 10 0 1 0 0 1
+vendor_part_number=S9173-ND
+T 59100 50500 5 10 0 1 0 0 1
+footprint=db-header-26
+T 59100 50500 5 10 0 1 0 0 1
+device=CONNECTOR
 }
 N 57600 60600 59100 60600 4
 {
@@ -757,6 +783,8 @@ N 57600 56600 59100 56600 4
 {
 T 57800 56700 5 10 1 1 0 0 1
 netname=nWait
+T 57600 56600 5 10 0 0 0 0 1
+footprint=182-25
 }
 N 59100 56200 57600 56200 4
 N 57600 55800 59100 55800 4
@@ -887,6 +915,14 @@ T 72000 48600 5 10 1 1 0 0 1
 value=ICSP
 T 71700 50700 5 10 0 1 0 0 1
 loadstatus=throughhole
+T 71700 50700 5 10 0 1 0 0 1
+device=CONNECTOR
+T 71700 50700 5 10 0 0 0 0 1
+vendor=digikey
+T 71700 50700 5 10 0 0 0 0 1
+vendor_part_number=708-1028-ND
+T 71700 50700 5 10 0 0 0 0 1
+footprint=100mil5pin
 }
 N 71700 49800 70500 49800 4
 {
@@ -928,7 +964,7 @@ T 62400 50100 5 10 0 1 0 0 1
 vendor=digikey
 T 62400 50100 5 10 0 1 0 0 1
 vendor_part_number=399-3027-1-ND
-T 62400 50100 5 10 1 1 0 0 1
+T 62400 50100 5 10 0 1 0 0 1
 footprint=0402
 }
 C 62100 49800 1 0 0 gnd.sym
@@ -938,6 +974,8 @@ T 64095 47245 5 10 1 1 0 6 1
 refdes=J8
 T 64400 46600 5 10 0 1 0 0 1
 loadstatus=throughhole
+T 64400 46600 5 10 0 1 0 0 1
+device=CONNECTOR
 }
 C 65600 53900 1 0 0 gnd.sym
 N 65800 54300 65700 54300 4
@@ -1126,6 +1164,10 @@ T 56300 50100 5 10 1 1 0 0 1
 refdes=J10
 T 56000 48800 5 10 0 1 0 0 1
 loadstatus=throughhole
+T 56000 48800 5 10 0 1 0 0 1
+device=CONNECTOR
+T 56000 48800 5 10 0 0 0 0 1
+footprint=100mil3pin
 }
 T 62000 45600 9 10 1 0 0 0 1
 spindle
@@ -1199,7 +1241,7 @@ T 63000 49700 5 10 0 0 0 0 1
 device=LED
 T 63050 49100 5 10 0 1 0 0 1
 footprint=0605
-T 63100 49100 5 10 1 1 0 0 1
+T 63100 49100 5 10 0 1 0 0 1
 value=dual
 T 63100 49100 5 10 0 1 0 0 1
 loadstatus=smt
@@ -1256,7 +1298,7 @@ T 62200 56100 5 10 0 1 0 0 1
 vendor=digikey
 T 62200 56100 5 10 0 1 0 0 1
 vendor_part_number=399-3027-1-ND
-T 62200 56100 5 10 1 1 0 0 1
+T 62200 56100 5 10 0 1 0 0 1
 footprint=0402
 }
 N 62000 57100 61500 57100 4
@@ -1279,7 +1321,7 @@ T 65000 56100 5 10 0 1 0 0 1
 vendor=digikey
 T 65000 56100 5 10 0 1 0 0 1
 vendor_part_number=399-3027-1-ND
-T 65000 56100 5 10 1 1 0 0 1
+T 65000 56100 5 10 0 1 0 0 1
 footprint=0402
 }
 N 64800 57100 64300 57100 4
@@ -1302,7 +1344,7 @@ T 67800 56100 5 10 0 1 0 0 1
 vendor=digikey
 T 67800 56100 5 10 0 1 0 0 1
 vendor_part_number=399-3027-1-ND
-T 67800 56100 5 10 1 1 0 0 1
+T 67800 56100 5 10 0 1 0 0 1
 footprint=0402
 }
 N 67600 57100 67100 57100 4
@@ -1325,7 +1367,7 @@ T 70600 56100 5 10 0 1 0 0 1
 vendor=digikey
 T 70600 56100 5 10 0 1 0 0 1
 vendor_part_number=399-3027-1-ND
-T 70600 56100 5 10 1 1 0 0 1
+T 70600 56100 5 10 0 1 0 0 1
 footprint=0402
 }
 N 70400 57100 69900 57100 4
@@ -1348,7 +1390,7 @@ T 69000 44200 5 10 0 1 0 0 1
 vendor=digikey
 T 69000 44200 5 10 0 1 0 0 1
 vendor_part_number=399-3027-1-ND
-T 69000 44200 5 10 1 1 0 0 1
+T 69000 44200 5 10 0 1 0 0 1
 footprint=0402
 }
 C 69600 44200 1 90 0 capacitor.sym
@@ -1367,7 +1409,7 @@ T 69600 44200 5 10 0 1 0 0 1
 vendor=digikey
 T 69600 44200 5 10 0 1 0 0 1
 vendor_part_number=399-3027-1-ND
-T 69600 44200 5 10 1 1 0 0 1
+T 69600 44200 5 10 0 1 0 0 1
 footprint=0402
 }
 N 68800 44200 68800 43800 4
@@ -1389,3 +1431,45 @@ footprint=TO220W
 T 66100 44500 5 10 0 1 0 0 1
 loadstatus=throughhole
 }
+C 65800 54200 1 0 0 conn-15b.sym
+{
+T 66155 60095 5 10 1 1 0 0 1
+refdes=J3
+T 65800 54200 5 10 0 1 0 0 1
+device=CONNECTOR
+T 65800 54200 5 10 0 0 0 0 1
+footprint=189-15
+T 66100 54000 5 10 0 1 0 0 1
+value=XY
+T 65800 54200 5 10 0 1 0 0 1
+loadstatus=throughhole
+T 65800 54200 5 10 0 0 0 0 1
+vendor=digikey
+T 65800 54200 5 10 0 0 0 0 1
+vendor_part_number=1015FFE-ND
+}
+C 71400 54200 1 0 0 conn-15b.sym
+{
+T 71755 60095 5 10 1 1 0 0 1
+refdes=J4
+T 71400 54200 5 10 0 1 0 0 1
+device=CONNECTOR
+T 71400 54200 5 10 0 1 0 0 1
+footprint=189-15
+T 71700 54000 5 10 0 1 0 0 1
+value=ZA
+T 71400 54200 5 10 0 1 0 0 1
+loadstatus=throughhole
+T 71400 54200 5 10 0 1 0 0 1
+vendor=digikey
+T 71400 54200 5 10 0 1 0 0 1
+vendor_part_number=1015FFE-ND
+}
+T 63300 53500 9 30 1 0 0 0 1
+X
+T 66100 53500 9 30 1 0 0 0 1
+Y
+T 68900 53500 9 30 1 0 0 0 1
+Z
+T 71600 53500 9 30 1 0 0 0 1
+A

@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["cncfpga" 510000 200000]
 
 Grid[100.0 0 0 0]
-Cursor[5200 30000 0.000000]
+Cursor[0 19200 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 1000 600 500 1500 700]
@@ -1487,6 +1487,18 @@ Element["" "0805" "C9" "0.1uF" 188957 104900 -2564 2750 0 100 ""]
 	ElementLine [-393 2755 393 2755 800]
 
 	)
+
+Element["" "100mil3pin" "J11" "unknown" 448700 113500 -3400 6200 0 100 ""]
+(
+	Pin[0 0 7000 1500 8500 3800 "1" "1" "square,thermal(2X)"]
+	Pin[0 -10000 7000 1500 8500 3800 "2" "2" "thermal(1X)"]
+	Pin[0 -20000 7000 1500 8500 3800 "3" "3" "thermal(2X)"]
+	ElementLine [-5000 -25000 -5000 5000 1500]
+	ElementLine [-5000 5000 5000 5000 1500]
+	ElementLine [5000 -25000 5000 5000 1500]
+	ElementLine [-5000 -25000 5000 -25000 1500]
+
+	)
 Layer(1 "top")
 (
 	Line[79167 156209 79167 131633 1000 2000 ""]
@@ -2237,6 +2249,7 @@ NetList()
 		Connect("C11-2")
 		Connect("C12-2")
 		Connect("J10-1")
+		Connect("J11-1")
 		Connect("R3-2")
 		Connect("U1-4")
 		Connect("U1-12")
@@ -2271,6 +2284,7 @@ NetList()
 		Connect("J4-19")
 		Connect("J4-27")
 		Connect("J9-1")
+		Connect("J11-3")
 		Connect("R2-2")
 		Connect("R4-2")
 		Connect("U2-1")
@@ -2470,6 +2484,7 @@ NetList()
 		Connect("J8-2")
 		Connect("J9-2")
 		Connect("J10-3")
+		Connect("J11-2")
 		Connect("R5-1")
 		Connect("U1-6")
 		Connect("U1-7")

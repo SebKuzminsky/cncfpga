@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["cncfpga" 510000 200000]
 
 Grid[100.0 0 0 0]
-Cursor[400 127500 0.000000]
+Cursor[500 26200 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 1000 600 500 1500 700]
@@ -1307,7 +1307,7 @@ Element["" "0805" "R1" "330" 286357 108100 -2650 3050 0 100 ""]
 
 	)
 
-Element["hidename" "hole-fox-stack" "H1" "unknown" 16000 183800 -16900 -21000 0 100 ""]
+Element["hidename" "hole-fox-stack" "H1" "unknown" 16500 184000 -16900 -21000 0 100 ""]
 (
 	Pin[0 0 25197 1500 32000 12500 "1" "1" "usetherm,thermal(1S)"]
 
@@ -1342,7 +1342,7 @@ Element["" "TO220W" "U3" "7805" 497000 75000 -100 31500 0 100 ""]
 
 	)
 
-Element["hidename" "hole-fox-stack" "H2" "unknown" 493900 184000 -16900 -21000 0 100 ""]
+Element["hidename" "hole-fox-stack" "H2" "unknown" 491500 184000 -16900 -21000 0 100 ""]
 (
 	Pin[0 0 25197 1500 32000 12500 "1" "1" "usetherm,thermal(1S)"]
 

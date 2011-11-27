@@ -1,0 +1,10 @@
+http://www.fourwalledcubicle.com/LUFA.php
+	programmer for TPI is included in the package, boards available online
+
+To Do:
+
+- figure out the nConfig / nCONFIG wiring by inspecting my real Pluto-P
+- figure out if all the unconnected pins on the FPGA match the Pluto-P
+
+- verify pin configuration seems to match the data in:
+  ~/src/emc2-dev/src/hal/drivers/pluto_servo_firmware/pluto_servo.pin 

@@ -108,6 +108,10 @@ T 63000 54200 5 10 0 0 0 0 1
 vendor_part_number=1015FFE-ND
 T 63000 54200 5 10 0 1 0 0 1
 device=CONNECTOR
+T 63000 54200 5 10 0 0 0 0 1
+slot=1
+T 63000 54200 5 10 0 0 0 0 1
+numslots=2
 }
 C 65800 54200 1 0 0 conn-15.sym
 {
@@ -125,6 +129,10 @@ T 65800 54200 5 10 0 1 0 0 1
 vendor=digikey
 T 65800 54200 5 10 0 1 0 0 1
 vendor_part_number=1015FFE-ND
+T 65800 54200 5 10 0 0 0 0 1
+slot=1
+T 65800 54200 5 10 0 0 0 0 1
+numslots=2
 }
 C 55700 43900 1 0 0 conn-9.sym
 {
@@ -1364,6 +1372,10 @@ T 68600 54200 5 10 0 0 0 0 1
 vendor=digikey
 T 68600 54200 5 10 0 0 0 0 1
 vendor_part_number=1015FFE-ND
+T 68600 54200 5 10 0 1 0 0 1
+slot=2
+T 68600 54200 5 10 0 0 0 0 1
+numslots=2
 }
 C 71400 54200 1 0 0 conn-15b.sym
 {
@@ -1381,6 +1393,10 @@ T 71400 54200 5 10 0 1 0 0 1
 vendor=digikey
 T 71400 54200 5 10 0 1 0 0 1
 vendor_part_number=1015FFE-ND
+T 71400 54200 5 10 0 0 0 0 1
+slot=2
+T 71400 54200 5 10 0 0 0 0 1
+numslots=2
 }
 T 63300 53500 9 30 1 0 0 0 1
 X

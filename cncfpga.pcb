@@ -6,7 +6,7 @@ FileVersion[20070407]
 PCB["cncfpga" 510000 200000]
 
 Grid[100.0 0 0 0]
-Cursor[13100 5600 0.000000]
+Cursor[2800 23400 0.000000]
 PolyArea[200000000.000000]
 Thermal[0.500000]
 DRC[600 1000 600 500 1500 700]
@@ -2299,6 +2299,7 @@ Layer(7 "silk")
 	Text[427700 110800 0 100 "3.3V" "clearline"]
 	Text[427500 100400 0 100 "GND" "clearline"]
 	Text[431600 90400 0 100 "5V" "clearline"]
+	Text[7200 52600 0 100 "pcok  dout9" "clearline"]
 )
 NetList()
 (

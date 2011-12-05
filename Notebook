@@ -47,6 +47,18 @@ To Do:
 
 	**DONE**
 
+    why not treat all the parallel port input pins with transistors?
+
+	http://emergent.unpythonic.net/01165081407 has an answer, that they
+	are used as inverters because the FPGA has weak pull-ups on those
+	pins yet those pins need to be driven low or the PC can't configure
+	the FPGA by "printing to it" .. apparently that only applies to the
+	two pins that have the inverters on them.
+
+	Duh.  Of course they're inverting... how'd I miss that?
+
+	**DONE**
+
     pin 49 hooked to pin 51 .. nCONFIG driven by nConfig
 
 	**DONE**
@@ -82,6 +94,4 @@ To Do:
 
 	pin 87 is DEV_CLRn driving nWait to the PC
 	pin 90 is CLOCK hooked to db25 pin 1 whcih is nWrite
-
-    why not treat all the parallel port input pins with transistors?
 

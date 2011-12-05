@@ -3,8 +3,85 @@ http://www.fourwalledcubicle.com/LUFA.php
 
 To Do:
 
-- figure out the nConfig / nCONFIG wiring by inspecting my real Pluto-P
 - figure out if all the unconnected pins on the FPGA match the Pluto-P
 
 - verify pin configuration seems to match the data in:
   ~/src/emc2-dev/src/hal/drivers/pluto_servo_firmware/pluto_servo.pin 
+
+
+2011.12.04
+- results of physical inspection of pluto-p board
+
+    22 ohm series resistors on 7 pins between FPGA and 10 pin header, including
+	pins 5, 8, 9, 10, 13, 16, 93
+
+	** these are din_1 through din_7 .. makes sense?
+
+	**DONE**
+
+    pin 50 has an LED and 1k resistor
+
+	** my current design has 330 ohms
+
+	**NOT DONE .. CAN CHANGE IF NEEDED AFTER PCB FAB**
+
+    10k from pin 25 to pin 44, cap from pin 44 to ground
+
+	44 is VCCIO, 25 is nSTATUS, so this is a pull-up on nSTATUS
+
+	**DONE**
+
+    db25 pin 11 to sole pin side of one "1L" transistor, one lead to ground, 
+    4.7k from remaining lead to pin 87
+
+	db25 pin 11 is nWait .. so it looks like nWait is being driven by
+	a transistor from the FPGA DEV_CLRn output, not directly
+
+	**DONE**
+
+    db25 pin 12 to sole pin side of one "1L" transistor, one lead to ground,
+    4.7k from remaining lead to pin 6
+
+	db25 pin 12 is undocumented?
+	so FPGA pin 6 is able to drive that pin through a transistor
+
+	**DONE**
+
+    pin 49 hooked to pin 51 .. nCONFIG driven by nConfig
+
+	**DONE**
+
+    osc pin 3 to pin 91
+
+	consistent with my design, 40mhz to FPGA
+	**DONE**
+
+    26 pin header pins 11 and 12 to sole pin side of "G1" transistor, both other
+    leads have caps to ground, one to pin 24, the other to pin 37, 35
+
+	those header pins are VCC?
+	pin 37, 35 is VCCIO
+	pin 24 is TMS
+
+	WTF?
+
+	SOT-23 with G1 label could be:
+
+		transistor, 1=B, 2=E, 3(sole)=C
+		fet, 1=G, 2=S, 3=D
+
+	so:
+		TMS is driving base or gate
+		3.3V is on emitter or source
+		header VCC is on collector or drain
+
+	TMS is 'test mode state' on the jtag interface, which drives the TAP
+	controller state machine.  TMS going low starts a cycle?
+
+    4.7k between pins 87 and 90
+
+	pin 87 is DEV_CLRn driving nWait to the PC
+	pin 90 is CLOCK hooked to db25 pin 1 whcih is nWrite
+
+    why not treat all the parallel port input pins with transistors?
+

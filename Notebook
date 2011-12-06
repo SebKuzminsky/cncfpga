@@ -69,26 +69,12 @@ To Do:
 	**DONE**
 
     26 pin header pins 11 and 12 to sole pin side of "G1" transistor, both other
-    leads have caps to ground, one to pin 24, the other to pin 37, 35
+    leads have caps to ground
 
-	those header pins are VCC?
-	pin 37, 35 is VCCIO
-	pin 24 is TMS
-
-	WTF?
-
-	SOT-23 with G1 label could be:
-
-		transistor, 1=B, 2=E, 3(sole)=C
-		fet, 1=G, 2=S, 3=D
-
-	so:
-		TMS is driving base or gate
-		3.3V is on emitter or source
-		header VCC is on collector or drain
-
-	TMS is 'test mode state' on the jtag interface, which drives the TAP
-	controller state machine.  TMS going low starts a cycle?
+	if it's an NPN transistor:
+		emitter attached to VCCINT
+		base and collector both to VCCIO
+		VCCIO is driven by 3.3V regulator, VCCINT is not
 
     4.7k between pins 87 and 90
 

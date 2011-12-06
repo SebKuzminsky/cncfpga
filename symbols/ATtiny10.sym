@@ -1,0 +1,80 @@
+v 20110115 2
+P 0 1000 400 1000 1 0 0
+{
+T 305 1045 5 10 1 1 0 6 1
+pinnumber=1
+T 455 995 3 10 1 1 0 0 1
+pinlabel=PB0/PCINT0/TPIDATA/OC0A/ADC0/AIN0
+T 0 1000 5 10 0 1 0 6 1
+pinseq=1
+T 0 1000 5 10 0 1 0 6 1
+pintype=io
+}
+P 8300 200 7900 200 1 0 0
+{
+T 8000 300 5 10 1 1 0 0 1
+pinnumber=4
+T 4950 200 3 10 1 1 0 0 1
+pinlabel=PB2/T0/CLKO/PCINT2/INT0/ADC2
+T 8300 200 5 10 0 1 0 0 1
+pinseq=4
+T 8300 200 5 10 0 1 0 0 1
+pintype=io
+}
+P 8300 600 7900 600 1 0 0
+{
+T 7995 645 5 10 1 1 0 0 1
+pinnumber=5
+T 7845 595 3 10 1 1 0 6 1
+pinlabel=VCC
+T 8700 700 5 10 0 1 0 6 1
+pinseq=5
+T 8300 600 5 10 0 1 0 6 1
+pintype=pwr
+}
+P 8300 1000 7900 1000 1 0 0
+{
+T 7995 1045 5 10 1 1 0 0 1
+pinnumber=6
+T 7845 995 3 10 1 1 0 6 1
+pinlabel=PB3/RESET/PCINT3/ADC3
+T 8700 1100 5 10 0 1 0 6 1
+pinseq=6
+T 8300 1000 5 10 0 1 0 6 1
+pintype=io
+}
+P 0 600 400 600 1 0 0
+{
+T 200 650 5 10 1 1 0 0 1
+pinnumber=2
+T 500 600 3 10 1 1 0 0 1
+pinlabel=GND
+T -500 500 5 10 0 1 0 0 1
+pinseq=2
+T 0 600 5 10 0 1 0 0 1
+pintype=pwr
+}
+P 0 200 400 200 1 0 0
+{
+T 305 245 5 10 1 1 0 6 1
+pinnumber=3
+T 455 195 3 10 1 1 0 0 1
+pinlabel=PB1/PCINT1/TPICLK/CLKI/ICP0/OC0B/ADC1/AIN1
+T -400 300 5 10 0 1 0 0 1
+pinseq=3
+T 0 200 5 10 0 1 0 0 1
+pintype=io
+}
+B 400 0 7500 1400 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 5400 -4000 8 10 0 0 0 0 1
+description=Atmel ATtiny48 Microcontroller
+T 5400 -3100 8 10 0 0 0 0 1
+numslots=1
+T 5400 -3400 8 10 0 0 0 0 1
+device=ATtiny48
+T 5400 -2800 8 10 0 0 0 0 1
+slot=1
+T 5400 -3700 8 10 0 0 0 0 1
+footprint=TQFP32_7
+T 500 1500 8 10 1 1 0 0 1
+refdes=U?

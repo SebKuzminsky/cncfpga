@@ -1,0 +1,20 @@
+v 20070902 1
+P 0 0 100 0 1 0 0
+{
+T 0 0 5 10 0 0 0 0 1
+pintype=unknown
+T 355 -5 5 10 0 1 0 0 1
+pinlabel=unknown
+T 205 45 5 10 0 1 0 6 1
+pinnumber=1
+T 0 0 5 10 0 0 0 0 1
+pinseq=0
+}
+V 149 1 50 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+V 149 1 25 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T -5 -49 8 10 0 1 0 0 1
+device=TestPoint
+T 195 -49 8 10 0 1 0 0 1
+refdes=TP?
+T -5 -49 8 10 0 1 0 0 1
+footprint=testpoint

@@ -32,7 +32,7 @@ To Do:
 	**DONE**
 
     db25 pin 11 to sole pin side of one "1L" transistor, one lead to ground, 
-    4.7k from remaining lead to pin 87
+    4.7k from remaining lead to pin 87, another 4.7k between pins 87 and 90
 
 	db25 pin 11 is nWait .. so it looks like nWait is being driven by
 	a transistor from the FPGA DEV_CLRn output, not directly
@@ -79,5 +79,6 @@ To Do:
     4.7k between pins 87 and 90
 
 	pin 87 is DEV_CLRn driving nWait to the PC
-	pin 90 is CLOCK hooked to db25 pin 1 whcih is nWrite
+
+	**DONE**
 

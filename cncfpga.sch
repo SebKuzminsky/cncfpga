@@ -178,10 +178,9 @@ N 65500 50000 68600 50000 4
 N 61000 52000 61000 50500 4
 N 61000 49600 61000 48700 4
 C 65600 50000 1 0 0 3.3V-plus.sym
-C 47900 60400 1 0 0 3.3V-plus.sym
+C 47700 60400 1 0 0 3.3V-plus.sym
 N 44700 60400 46700 60400 4
 N 44700 60400 44700 60300 4
-N 49100 60300 49100 60400 4
 N 48700 60300 48700 60400 4
 N 48300 60300 48300 60400 4
 N 47900 60300 47900 60400 4
@@ -1783,7 +1782,7 @@ vendor_part_number=RHM4.70KCRCT-ND
 N 40300 43800 40300 41200 4
 N 41200 43800 43400 43800 4
 N 43400 43000 40300 43000 4
-N 47100 60400 49100 60400 4
+N 47100 60400 48700 60400 4
 C 45500 60400 1 0 0 2.5V-plus.sym
 C 68600 49100 1 0 0 TC1014.sym
 {
@@ -1979,14 +1978,14 @@ T 55400 57300 5 10 1 1 180 0 1
 refdes=C30
 T 54300 56700 5 10 0 0 90 0 1
 symversion=0.1
-T 55100 56600 5 10 1 1 0 0 1
-value=0.1uF
+T 55000 56600 5 10 1 1 0 0 1
+value=0.15uF
 T 55200 56500 5 10 0 1 0 0 1
 loadstatus=smt
 T 55200 56500 5 10 0 1 0 0 1
 vendor=digikey
 T 55200 56500 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 55200 56500 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -1998,14 +1997,14 @@ T 56000 57300 5 10 1 1 180 0 1
 refdes=C31
 T 54900 56700 5 10 0 0 90 0 1
 symversion=0.1
-T 55700 56600 5 10 1 1 0 0 1
-value=0.1uF
+T 55600 56600 5 10 1 1 0 0 1
+value=0.15uF
 T 55800 56500 5 10 0 1 0 0 1
 loadstatus=smt
 T 55800 56500 5 10 0 1 0 0 1
 vendor=digikey
 T 55800 56500 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 55800 56500 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2017,14 +2016,14 @@ T 56600 57300 5 10 1 1 180 0 1
 refdes=C32
 T 55500 56700 5 10 0 0 90 0 1
 symversion=0.1
-T 56300 56600 5 10 1 1 0 0 1
-value=0.1uF
+T 56200 56600 5 10 1 1 0 0 1
+value=0.15uF
 T 56400 56500 5 10 0 1 0 0 1
 loadstatus=smt
 T 56400 56500 5 10 0 1 0 0 1
 vendor=digikey
 T 56400 56500 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 56400 56500 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2108,14 +2107,14 @@ T 59900 57300 5 10 1 1 180 0 1
 refdes=C34
 T 58800 56700 5 10 0 0 90 0 1
 symversion=0.1
-T 59600 56600 5 10 1 1 0 0 1
-value=0.1uF
+T 59500 56600 5 10 1 1 0 0 1
+value=0.15uF
 T 59700 56500 5 10 0 1 0 0 1
 loadstatus=smt
 T 59700 56500 5 10 0 1 0 0 1
 vendor=digikey
 T 59700 56500 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 59700 56500 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2127,14 +2126,14 @@ T 60500 57300 5 10 1 1 180 0 1
 refdes=C35
 T 59400 56700 5 10 0 0 90 0 1
 symversion=0.1
-T 60200 56600 5 10 1 1 0 0 1
-value=0.1uF
+T 60100 56600 5 10 1 1 0 0 1
+value=0.15uF
 T 60300 56500 5 10 0 1 0 0 1
 loadstatus=smt
 T 60300 56500 5 10 0 1 0 0 1
 vendor=digikey
 T 60300 56500 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 60300 56500 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2146,14 +2145,14 @@ T 61100 57300 5 10 1 1 180 0 1
 refdes=C36
 T 60000 56700 5 10 0 0 90 0 1
 symversion=0.1
-T 60800 56600 5 10 1 1 0 0 1
-value=0.1uF
+T 60700 56600 5 10 1 1 0 0 1
+value=0.15uF
 T 60900 56500 5 10 0 1 0 0 1
 loadstatus=smt
 T 60900 56500 5 10 0 1 0 0 1
 vendor=digikey
 T 60900 56500 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 60900 56500 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2237,14 +2236,14 @@ T 64400 57200 5 10 1 1 180 0 1
 refdes=C37
 T 63300 56600 5 10 0 0 90 0 1
 symversion=0.1
-T 64100 56500 5 10 1 1 0 0 1
-value=0.1uF
+T 64000 56500 5 10 1 1 0 0 1
+value=0.15uF
 T 64200 56400 5 10 0 1 0 0 1
 loadstatus=smt
 T 64200 56400 5 10 0 1 0 0 1
 vendor=digikey
 T 64200 56400 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 64200 56400 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2256,14 +2255,14 @@ T 65000 57200 5 10 1 1 180 0 1
 refdes=C38
 T 63900 56600 5 10 0 0 90 0 1
 symversion=0.1
-T 64700 56500 5 10 1 1 0 0 1
-value=0.1uF
+T 64600 56500 5 10 1 1 0 0 1
+value=0.15uF
 T 64800 56400 5 10 0 1 0 0 1
 loadstatus=smt
 T 64800 56400 5 10 0 1 0 0 1
 vendor=digikey
 T 64800 56400 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 64800 56400 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2275,14 +2274,14 @@ T 65600 57200 5 10 1 1 180 0 1
 refdes=C39
 T 64500 56600 5 10 0 0 90 0 1
 symversion=0.1
-T 65300 56500 5 10 1 1 0 0 1
-value=0.1uF
+T 65200 56500 5 10 1 1 0 0 1
+value=0.15uF
 T 65400 56400 5 10 0 1 0 0 1
 loadstatus=smt
 T 65400 56400 5 10 0 1 0 0 1
 vendor=digikey
 T 65400 56400 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 65400 56400 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2366,14 +2365,14 @@ T 68900 57200 5 10 1 1 180 0 1
 refdes=C40
 T 67800 56600 5 10 0 0 90 0 1
 symversion=0.1
-T 68600 56500 5 10 1 1 0 0 1
-value=0.1uF
+T 68500 56500 5 10 1 1 0 0 1
+value=0.15uF
 T 68700 56400 5 10 0 1 0 0 1
 loadstatus=smt
 T 68700 56400 5 10 0 1 0 0 1
 vendor=digikey
 T 68700 56400 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 68700 56400 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2385,14 +2384,14 @@ T 69500 57200 5 10 1 1 180 0 1
 refdes=C41
 T 68400 56600 5 10 0 0 90 0 1
 symversion=0.1
-T 69200 56500 5 10 1 1 0 0 1
-value=0.1uF
+T 69100 56500 5 10 1 1 0 0 1
+value=0.15uF
 T 69300 56400 5 10 0 1 0 0 1
 loadstatus=smt
 T 69300 56400 5 10 0 1 0 0 1
 vendor=digikey
 T 69300 56400 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 69300 56400 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2404,14 +2403,14 @@ T 70100 57200 5 10 1 1 180 0 1
 refdes=C42
 T 69000 56600 5 10 0 0 90 0 1
 symversion=0.1
-T 69800 56500 5 10 1 1 0 0 1
-value=0.1uF
+T 69700 56500 5 10 1 1 0 0 1
+value=0.15uF
 T 69900 56400 5 10 0 1 0 0 1
 loadstatus=smt
 T 69900 56400 5 10 0 1 0 0 1
 vendor=digikey
 T 69900 56400 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 69900 56400 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2429,14 +2428,14 @@ T 52800 58000 5 10 1 1 180 0 1
 refdes=C50
 T 51700 57400 5 10 0 0 90 0 1
 symversion=0.1
-T 52500 57300 5 10 1 1 0 0 1
-value=0.1uF
+T 52400 57300 5 10 1 1 0 0 1
+value=0.15uF
 T 52600 57200 5 10 0 1 0 0 1
 loadstatus=smt
 T 52600 57200 5 10 0 1 0 0 1
 vendor=digikey
 T 52600 57200 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 52600 57200 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2449,13 +2448,13 @@ refdes=C51
 T 52300 57400 5 10 0 0 90 0 1
 symversion=0.1
 T 53100 57300 5 10 1 1 0 0 1
-value=0.1uF
+value=0.15uF
 T 53200 57200 5 10 0 1 0 0 1
 loadstatus=smt
 T 53200 57200 5 10 0 1 0 0 1
 vendor=digikey
 T 53200 57200 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 53200 57200 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2470,13 +2469,13 @@ refdes=C52
 T 51400 55800 5 10 0 0 90 0 1
 symversion=0.1
 T 52200 55700 5 10 1 1 0 0 1
-value=0.1uF
+value=0.15uF
 T 52300 55600 5 10 0 1 0 0 1
 loadstatus=smt
 T 52300 55600 5 10 0 1 0 0 1
 vendor=digikey
 T 52300 55600 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 52300 55600 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2489,13 +2488,13 @@ refdes=C53
 T 52000 55800 5 10 0 0 90 0 1
 symversion=0.1
 T 52800 55700 5 10 1 1 0 0 1
-value=0.1uF
+value=0.15uF
 T 52900 55600 5 10 0 1 0 0 1
 loadstatus=smt
 T 52900 55600 5 10 0 1 0 0 1
 vendor=digikey
 T 52900 55600 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 52900 55600 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2514,13 +2513,13 @@ refdes=C54
 T 42200 41900 5 10 0 0 90 0 1
 symversion=0.1
 T 43000 41800 5 10 1 1 0 0 1
-value=0.1uF
+value=0.15uF
 T 43100 41700 5 10 0 1 0 0 1
 loadstatus=smt
 T 43100 41700 5 10 0 1 0 0 1
 vendor=digikey
 T 43100 41700 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 43100 41700 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2533,14 +2532,14 @@ T 41400 54000 5 10 1 1 180 0 1
 refdes=C55
 T 40800 53500 5 10 0 0 90 0 1
 symversion=0.1
-T 41000 53500 5 10 1 1 0 0 1
-value=0.1uF
+T 40900 53500 5 10 1 1 0 0 1
+value=0.15uF
 T 41700 53300 5 10 0 1 0 0 1
 loadstatus=smt
 T 41700 53300 5 10 0 1 0 0 1
 vendor=digikey
 T 41700 53300 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 41700 53300 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2552,14 +2551,14 @@ T 41400 52200 5 10 1 1 180 0 1
 refdes=C56
 T 40800 51600 5 10 0 0 90 0 1
 symversion=0.1
-T 40800 51800 5 10 1 1 0 0 1
-value=0.1uF
+T 40700 51800 5 10 1 1 0 0 1
+value=0.15uF
 T 41700 51400 5 10 0 1 0 0 1
 loadstatus=smt
 T 41700 51400 5 10 0 1 0 0 1
 vendor=digikey
 T 41700 51400 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 41700 51400 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2571,14 +2570,14 @@ T 41400 50800 5 10 1 1 180 0 1
 refdes=C57
 T 40800 50300 5 10 0 0 90 0 1
 symversion=0.1
-T 41000 50200 5 10 1 1 0 0 1
-value=0.1uF
+T 40900 50200 5 10 1 1 0 0 1
+value=0.15uF
 T 41700 50100 5 10 0 1 0 0 1
 loadstatus=smt
 T 41700 50100 5 10 0 1 0 0 1
 vendor=digikey
 T 41700 50100 5 10 0 1 0 0 1
-vendor_part_number=311-1140-1-ND
+vendor_part_number=490-1727-1-ND
 T 41700 50100 5 10 0 1 0 0 1
 footprint=0805
 }
@@ -2589,3 +2588,4 @@ N 62700 56000 62800 56000 4
 N 67200 55900 67300 55900 4
 N 71700 55900 68500 55900 4
 N 71800 55900 71700 55900 4
+C 48900 60300 1 0 0 2.5V-plus.sym

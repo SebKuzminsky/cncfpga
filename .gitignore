@@ -1,6 +1,11 @@
-cncfpga.cmd
-cncfpga.drc
-cncfpga.net
+*.bom
+*.cnc
+*.cmd
+*.drc
+*.net
 *-
 *~
 partslist*
+*.xy
+*.zip
+*.gbr

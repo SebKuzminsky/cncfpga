@@ -11,7 +11,7 @@ partslist:	cncfpga.sch Makefile
 	rm -f cncfpga.unsorted
 
 partslist.csv:	cncfpga.sch Makefile
-	gnetlist -m scheme/gnet-partslistgag.scm -g partslistgag \
+	gnetlist -L ../altusmetrum/scheme -g partslistgag \
 		-o cncfpga.unsorted cncfpga.sch
 	head -n1 cncfpga.unsorted > partslist.csv
 	tail -n+2 cncfpga.unsorted | sort -t \, -k 8 >> partslist.csv

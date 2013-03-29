@@ -13,6 +13,7 @@ To Do:
 - results of physical inspection of pluto-p board
 
     22 ohm series resistors on 7 pins between FPGA and 10 pin header, including
+Q
 	pins 5, 8, 9, 10, 13, 16, 93
 
 	** these are din_1 through din_7 .. makes sense?
@@ -82,3 +83,39 @@ To Do:
 
 	**DONE**
 
+2013.04.28
+- studying design on the way home from POSSCON 2013, hoping to figure out
+  what the problem is between the parallel port and the FPGA that is causing
+  configuration to fail.
+
+  Something seems odd between the docs and what I think I found during 
+  physical inspection of the pluto-p board.
+
+  I have nWrite on pin 75, while the KNJN document says nWrite is parallel
+  port pin 1 and that should be on FPGA pin 90.  The pluto_servo.pin file in
+  the EMC2 pluto-p driver directory seems to say that pin 75 is a bidir DCLK
+  signale, and pin 90 is an nWrite *input*.  The parallel port doc says that
+  pin 1 is nStrobe in SPP mode and nWrite in EPP mode.  In both cases, that
+  seems like a signal from the PC to the FPGA (strobing data in).  Reading
+  the verilog source, nWrite is indeed an input to the FPGA and is used to
+  determine the EPP mode.
+
+  The pluto_servo.pin file says that pin 87 is nWait which is an output from
+  the FPGA.  Everything seems consistent in suggesting this should be driving
+  pin 11 on the parallel port through a transistor inverter.
+
+  I cannot fathom why pin 87 should have a 4.7k to pin 90.
+
+  I'm not at all sure how I ended up with pin 75 (DCLK) connected to parallel
+  port pin 1.
+
+  SO...
+
+	- I think FPGA pin 75 should not be part of the nWrite net.
+	- I think FPGA pin 90 needs to be part of the nWrite net.
+	- maybe try removing R23 which is the 4.7k between FPGA pins 87 and 90,
+	  and/or figure out what I was counting wrong!
+
+2013.04.29
+- put the pluto-p under the microscope .. and low and behold, pin 75 and pin 90
+  on the FPGA are *both* connected to parallel port pin 1!

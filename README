@@ -1,0 +1,9 @@
+
+This is a clone of the Pluto-P FPGA board, by Bdale Garbee.  The board
+is intended to be compatible with the original Pluto.
+
+Bdale's webpage about the board is here:
+http://www.gag.com/homeshop/cncfpga/
+
+Cloned from Bdale Garbee's repo at git://git.gag.com/hw/cncfpga.
+
